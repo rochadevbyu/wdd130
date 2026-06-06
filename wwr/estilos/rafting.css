@@ -20,13 +20,21 @@ body {
     color: var(--cor-destaque1);
 }
 
-header, main, footer {
+header, footer {
     width: 840px;
     margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+main {
+    width: 840px;
+    margin: 0 auto;
+   }
+
 h1, h2 {
-    font-family: var(--font-titulo);
+    font-family: var(--font-estilo);
     color:var(--cor-primaria);
     text-align: center;
 
@@ -34,6 +42,15 @@ h1, h2 {
 
 nav, p, section, article {
     margin: 16px;
+    padding: 8px;
+       
+}
+
+section img {
+    display:flex
+}
+
+a {
     padding: 8px;
 }
 
@@ -71,11 +88,7 @@ nav, p, section, article {
     width: 125px;
 }
 
-.hero article {
 
-    position: absolute;
-
-}
 
 .socialmedia a {
 
@@ -90,6 +103,7 @@ nav ul {
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
+    gap: 15px;
 }
 
 nav li {
@@ -113,3 +127,19 @@ nav li {
     color: #333;
 }
 
+.bloco_imagens {
+    display: flex;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+.bloco_imagens img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.bloco_imagens figure {
+    text-align: center;
+    margin: 10px;
+}
