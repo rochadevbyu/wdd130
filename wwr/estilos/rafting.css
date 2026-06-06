@@ -143,3 +143,17 @@ nav li {
     text-align: center;
     margin: 10px;
 }
+
+.conteudo-historia {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.conteudo-historia img {
+    max-width: 150px;
+    }
+
+.conteudo-historia p {
+    flex: 1;
+}
