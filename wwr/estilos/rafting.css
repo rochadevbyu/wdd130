@@ -28,6 +28,10 @@ header, footer {
     align-items: center;
 }
 
+footer{
+    margin-top: 100px
+}
+
 main {
     width: 840px;
     margin: 0 auto;
@@ -142,6 +146,9 @@ nav li {
 .bloco_imagens figure {
     text-align: center;
     margin: 10px;
+    flex: 1;
+    text-align: center;
+    
 }
 
 .conteudo-historia {
@@ -215,12 +222,6 @@ input[type="radio"], input[type="checkbox"]{
     padding: 10px;
 }
 
-.bloco_imagens figure {
-    flex: 1;
-    margin: 0;
-    text-align: center;
-    
-}
 
 .bloco_imagens figure img{
     width: 100%;
