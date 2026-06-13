@@ -175,10 +175,6 @@ form {
     flex-direction: column;
 }
 
-.bloco_imagens{
-    display:flex;
-    justify-content:space-around;
-}
 
 figure img{
     max-width:100%;
