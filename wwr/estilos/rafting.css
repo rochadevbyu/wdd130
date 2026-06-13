@@ -130,7 +130,7 @@ nav li {
 .bloco_imagens {
     display: flex;
     justify-content: space-around;
-    margin: 2px;
+    gap: 30px;
 }
 
 .bloco_imagens img {
@@ -213,4 +213,18 @@ input[type="radio"], input[type="checkbox"]{
 .linha-form textarea{
     width: 100%;
     padding: 10px;
+}
+
+.bloco_imagens figure {
+    flex: 1;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.bloco_imagens figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
